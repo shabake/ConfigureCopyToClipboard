@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>点击复制功能</title>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="clipboard/clipboard.min.js"></script>
+    <script type="text/javascript" src="layer/layer.js"></script>
+    <style>
+        a:hover{
+            cursor:pointer;
+        }
+    </style>
+</head>
+<body>
+    <p>点击字符串复制到剪贴板</p>
+<div id="copy_myself" data-clipboard-action="copy" data-clipboard-target="#copy_myself">bitCode</div>
+<br>
+
+<div id="copy_myself1" data-clipboard-action="copy" data-clipboard-target="#copy_myself1">OtherLinkerFlags</div>
+<br>
+<div id="copy_myself2" data-clipboard-action="copy" data-clipboard-target="#copy_myself2">-ObjC</div>
+<br>
+<div id="copy_myself3" data-clipboard-action="copy" data-clipboard-target="#copy_myself3">-lc++</div>
+<br>
+<div id="copy_myself4" data-clipboard-action="copy" data-clipboard-target="#copy_myself4">CoreGraphics.framework</div>
+<br>
+<div id="copy_myself5" data-clipboard-action="copy" data-clipboard-target="#copy_myself5">CFNetwork.framework</div>
+<br>
+<div id="copy_myself6" data-clipboard-action="copy" data-clipboard-target="#copy_myself6">Security.framework</div>
+<br>
+
+<div id="copy_myself7" data-clipboard-action="copy" data-clipboard-target="#copy_myself7">CoreTelephony.framework</div>
+<br>
+<div id="copy_myself8" data-clipboard-action="copy" data-clipboard-target="#copy_myself8">QuartzCore.framework</div>
+<br>
+<div id="copy_myself9" data-clipboard-action="copy" data-clipboard-target="#copy_myself9">ImageIO.framework</div>
+<br>
+<div id="copy_myself10" data-clipboard-action="copy" data-clipboard-target="#copy_myself10">CoreLocation.framework</div>
+<br>
+<div id="copy_myself11" data-clipboard-action="copy" data-clipboard-target="#copy_myself11">CoreFoundation.framework</div>
+<br>
+<div id="copy_myself12" data-clipboard-action="copy" data-clipboard-target="#copy_myself12">UserNotifications.framework</div>
+<br>
+<div id="copy_myself13" data-clipboard-action="copy" data-clipboard-target="#copy_myself13">libsqlite3.tbd</div>
+<br>
+<div id="copy_myself14" data-clipboard-action="copy" data-clipboard-target="#copy_myself14">libc++.tbd</div>
+<br>
+<div id="copy_myself15" data-clipboard-action="copy" data-clipboard-target="#copy_myself15">libz.tbd</div>
+<br>
+<div id="copy_myself16" data-clipboard-action="copy" data-clipboard-target="#copy_myself16">libresolv.tbd</div>
+<br>
+
+</body>
+
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        var clipboard = new Clipboard('#copy_myself');
+        clipboard.on('success', function(e) {
+            parent.layer.msg("复制成功!", {
+                icon : 1,
+                time : 1500
+            })
+        });
+        clipboard.on('error', function(e) {
+            parent.layer.msg("复制失败，请手动复制!", {
+                icon : 2,
+                time : 1500
+            })
+        });
+    });
+
+    $(document).ready(function() {
+        var clipboard = new Clipboard('#copy_myself1');
+        clipboard.on('success', function(e) {
+            parent.layer.msg("复制成功!", {
+                icon : 1,
+                time : 1500
+            })
+        });
+        clipboard.on('error', function(e) {
+            parent.layer.msg("复制失败，请手动复制!", {
+                icon : 2,
+                time : 1500
+            })
+        });
+    });
+
+    $(document).ready(function() {
+        var clipboard = new Clipboard('#copy_myself2');
+        clipboard.on('success', function(e) {
+            parent.layer.msg("复制成功!", {
+                icon : 1,
+                time : 1500
+            })
+        });
+        clipboard.on('error', function(e) {
+            parent.layer.msg("复制失败，请手动复制!", {
+                icon : 2,
+                time : 1500
+            })
+        });
+    });
+    $(document).ready(function() {
+        var clipboard = new Clipboard('#copy_myself3');
+        clipboard.on('success', function(e) {
+            parent.layer.msg("复制成功!", {
+                icon : 1,
+                time : 1500
+            })
+        });
+        clipboard.on('error', function(e) {
+            parent.layer.msg("复制失败，请手动复制!", {
+                icon : 2,
+                time : 1500
+            })
+        });
+    });
+    $(document).ready(function() {
+        var clipboard = new Clipboard('#copy_myself4');
+        clipboard.on('success', function(e) {
+            parent.layer.msg("复制成功!", {
+                icon : 1,
+                time : 1500
+            })
+        });
+        clipboard.on('error', function(e) {
+            parent.layer.msg("复制失败，请手动复制!", {
+                icon : 2,
+                time : 1500
+            })
+        });
+    });
+    $(document).ready(function() {
+        var clipboard = new Clipboard('#copy_myself5');
+        clipboard.on('success', function(e) {
+            parent.layer.msg("复制成功!", {
+                icon : 1,
+                time : 1500
+            })
+        });
+        clipboard.on('error', function(e) {
+            parent.layer.msg("复制失败，请手动复制!", {
+                icon : 2,
+                time : 1500
+            })
+        });
+    });
+    $(document).ready(function() {
+        var clipboard = new Clipboard('#copy_myself6');
+        clipboard.on('success', function(e) {
+            parent.layer.msg("复制成功!", {
+                icon : 1,
+                time : 1500
+            })
+        });
+        clipboard.on('error', function(e) {
+            parent.layer.msg("复制失败，请手动复制!", {
+                icon : 2,
+                time : 1500
+            })
+        });
+    });
+    $(document).ready(function() {
+        var clipboard = new Clipboard('#copy_myself7');
+        clipboard.on('success', function(e) {
+            parent.layer.msg("复制成功!", {
+                icon : 1,
+                time : 1500
+            })
+        });
+        clipboard.on('error', function(e) {
+            parent.layer.msg("复制失败，请手动复制!", {
+                icon : 2,
+                time : 1500
+            })
+        });
+    });
+    $(document).ready(function() {
+        var clipboard = new Clipboard('#copy_myself8');
+        clipboard.on('success', function(e) {
+            parent.layer.msg("复制成功!", {
+                icon : 1,
+                time : 1500
+            })
+        });
+        clipboard.on('error', function(e) {
+            parent.layer.msg("复制失败，请手动复制!", {
+                icon : 2,
+                time : 1500
+            })
+        });
+    });
+    $(document).ready(function() {
+        var clipboard = new Clipboard('#copy_myself9');
+        clipboard.on('success', function(e) {
+            parent.layer.msg("复制成功!", {
+                icon : 1,
+                time : 1500
+            })
+        });
+        clipboard.on('error', function(e) {
+            parent.layer.msg("复制失败，请手动复制!", {
+                icon : 2,
+                time : 1500
+            })
+        });
+    });
+    $(document).ready(function() {
+        var clipboard = new Clipboard('#copy_myself10');
+        clipboard.on('success', function(e) {
+            parent.layer.msg("复制成功!", {
+                icon : 1,
+                time : 1500
+            })
+        });
+        clipboard.on('error', function(e) {
+            parent.layer.msg("复制失败，请手动复制!", {
+                icon : 2,
+                time : 1500
+            })
+        });
+    });
+    $(document).ready(function() {
+        var clipboard = new Clipboard('#copy_myself11');
+        clipboard.on('success', function(e) {
+            parent.layer.msg("复制成功!", {
+                icon : 1,
+                time : 1500
+            })
+        });
+        clipboard.on('error', function(e) {
+            parent.layer.msg("复制失败，请手动复制!", {
+                icon : 2,
+                time : 1500
+            })
+        });
+    });
+    $(document).ready(function() {
+        var clipboard = new Clipboard('#copy_myself12');
+        clipboard.on('success', function(e) {
+            parent.layer.msg("复制成功!", {
+                icon : 1,
+                time : 1500
+            })
+        });
+        clipboard.on('error', function(e) {
+            parent.layer.msg("复制失败，请手动复制!", {
+                icon : 2,
+                time : 1500
+            })
+        });
+    });
+    $(document).ready(function() {
+        var clipboard = new Clipboard('#copy_myself13');
+        clipboard.on('success', function(e) {
+            parent.layer.msg("复制成功!", {
+                icon : 1,
+                time : 1500
+            })
+        });
+        clipboard.on('error', function(e) {
+            parent.layer.msg("复制失败，请手动复制!", {
+                icon : 2,
+                time : 1500
+            })
+        });
+    });
+    $(document).ready(function() {
+        var clipboard = new Clipboard('#copy_myself14');
+        clipboard.on('success', function(e) {
+            parent.layer.msg("复制成功!", {
+                icon : 1,
+                time : 1500
+            })
+        });
+        clipboard.on('error', function(e) {
+            parent.layer.msg("复制失败，请手动复制!", {
+                icon : 2,
+                time : 1500
+            })
+        });
+    });
+    $(document).ready(function() {
+        var clipboard = new Clipboard('#copy_myself15');
+        clipboard.on('success', function(e) {
+            parent.layer.msg("复制成功!", {
+                icon : 1,
+                time : 1500
+            })
+        });
+        clipboard.on('error', function(e) {
+            parent.layer.msg("复制失败，请手动复制!", {
+                icon : 2,
+                time : 1500
+            })
+        });
+    });
+    $(document).ready(function() {
+        var clipboard = new Clipboard('#copy_myself16');
+        clipboard.on('success', function(e) {
+            parent.layer.msg("复制成功!", {
+                icon : 1,
+                time : 1500
+            })
+        });
+        clipboard.on('error', function(e) {
+            parent.layer.msg("复制失败，请手动复制!", {
+                icon : 2,
+                time : 1500
+            })
+        });
+    });
+</script>
+
+</html>
